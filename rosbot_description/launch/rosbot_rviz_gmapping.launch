@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- <arg name="world_name" default="maze"/> -->
+
+  <include file="$(find rosbot_description)/launch/rosbot_rviz.launch">
+    <!-- <arg name="world_name" value="$(find rosbot_gazebo)/worlds/$(arg world_name).world"/> -->
+  </include>
+
+  <include file="$(find rosbot_description)/launch/gmapping.launch"></include>
+
+</launch>
