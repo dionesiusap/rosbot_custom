@@ -7,11 +7,13 @@
         <param name="ymin" value="-5"/>
         <param name="xmax" value="5"/>
         <param name="ymax" value="5"/>
-        <param name="maxUrange" value="5"/>
-        <param name="map_update_interval" value="0.5"/>
+        <param name="maxUrange" value="6.0"/>
+        <param name="maxRange" value="12.0"/>
+        <param name="map_update_interval" value="0.1"/>
         <param name="linearUpdate" value="0.05"/>
         <param name="angularUpdate" value="0.05"/>
         <param name="temporalUpdate" value="0.1"/>
-        <param name="particles" value="40"/>
+        <param name="particles" value="30"/>
+        <!-- <param name="lskip" value="1"/> -->
     </node>
 </launch>
