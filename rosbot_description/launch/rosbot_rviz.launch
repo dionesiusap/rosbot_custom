@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <launch>
-
-  <!-- <include file="$(find rosbot_description)/launch/rosbot.launch"></include> -->
-
   <param name="robot_description" command="$(find xacro)/xacro.py '$(find rosbot_description)/urdf/rosbot.xacro'"/>
 
   <!-- Show in Rviz   -->
