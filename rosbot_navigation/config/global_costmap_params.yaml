@@ -10,7 +10,7 @@ global_costmap:
   origin_y: -30
   static_map: false
   rolling_window: false
-  inflation_radius: 1.5
+  inflation_radius: 2.0
   # inflation_radius: 0.14
   resolution: 0.1
   track_unknown_space: true
