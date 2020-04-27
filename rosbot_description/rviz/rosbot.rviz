@@ -166,7 +166,7 @@ Visualization Manager:
       Position Transformer: XYZ
       Queue Size: 10
       Selectable: true
-      Size (Pixels): 3
+      Size (Pixels): 2
       Size (m): 0.05000000074505806
       Style: Points
       Topic: /scan
@@ -280,22 +280,22 @@ Visualization Manager:
       Class: rviz/Map
       Color Scheme: map
       Draw Behind: false
-      Enabled: true
+      Enabled: false
       Name: Costmap (local)
       Topic: /move_base/local_costmap/costmap
       Unreliable: false
       Use Timestamp: false
-      Value: true
+      Value: false
     - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: map
       Draw Behind: false
-      Enabled: false
+      Enabled: true
       Name: Costmap (global)
       Topic: /move_base/global_costmap/costmap
       Unreliable: false
       Use Timestamp: false
-      Value: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -333,11 +333,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 61.3039436340332
+      Scale: 46.962162017822266
       Target Frame: map
       Value: TopDownOrtho (rviz)
-      X: 1.334078311920166
-      Y: 3.0877435207366943
+      X: 2.737772226333618
+      Y: 3.6628215312957764
     Saved: ~
 Window Geometry:
   Displays:
