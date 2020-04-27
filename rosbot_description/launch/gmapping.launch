@@ -9,12 +9,12 @@
         <param name="ymax" value="5"/>
         <param name="maxUrange" value="11.0"/>
         <param name="maxRange" value="12.0"/>
-        <param name="map_update_interval" value="0.05"/>
+        <param name="map_update_interval" value="0.1"/>
         <param name="linearUpdate" value="0.05"/>
         <param name="angularUpdate" value="0.05"/>
         <param name="temporalUpdate" value="0.1"/>
-        <param name="particles" value="80"/>
+        <param name="particles" value="30"/>
         <param name="lskip" value="0"/>
-        <param name="minimumScore" value="400"/>
+        <param name="minimumScore" value="100"/>
     </node>
 </launch>
