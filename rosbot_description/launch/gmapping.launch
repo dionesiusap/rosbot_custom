@@ -13,8 +13,10 @@
         <param name="linearUpdate" value="0.05"/>
         <param name="angularUpdate" value="0.05"/>
         <param name="temporalUpdate" value="0.1"/>
+        <!-- <param name="particles" value="30"/> -->
         <param name="particles" value="30"/>
         <param name="lskip" value="0"/>
-        <param name="minimumScore" value="100"/>
+        <param name="minimumScore" value="1000"/>
+        <!-- <param name="minimumScore" value="0"/> -->
     </node>
 </launch>

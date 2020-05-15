@@ -15,7 +15,7 @@ TrajectoryPlannerROS:
   #  acc_lim_theta: 1.25
 
   holonomic_robot: false
-  escape_vel: -0.35
+  escape_vel: -0.1
 
   meter_scoring: true 
   xy_goal_tolerance: 0.1
@@ -23,8 +23,10 @@ TrajectoryPlannerROS:
   occdist_scale:  0.05
   # pdist_scale: 0.2
   # gdist_scale: 0.2
-  pdist_scale: 0.6
-  gdist_scale: 0.8
+  # path_distance_bias: 0.6
+  # goal_distance_bias: 0.8
+  path_distance_bias: 1.0
+  goal_distance_bias: 0.8
 
   sim_time: 2.0
   dwa: false
